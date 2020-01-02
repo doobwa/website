@@ -1,0 +1,33 @@
+<section data-scroll-index="1">
+    <div class="process">
+        <div class="header">
+            <h1 class="title">{{ .Site.Params.Research.Title }}</h1>
+            <h2 class="subtitle">{{ .Site.Params.Research.Subtitle_1 }}</h2>
+            <div class="process-wrapper">
+                {{ range $element := sort .Site.Data.recent "weight" }}
+                <div class="process-item">
+                    <figure class="item-header">
+                        <!-- <img src="svg/{{ $element.icon }}"> -->
+                        <h3>{{ $element.title }}</h3>
+                    </figure>
+                    <p>{{ $element.authors }}</p>
+                    <p>{{ $element.venue }} [<a href="{{ $element.link }}">paper</a>]</p>
+                </div>
+                {{ end }}
+            </div>
+            <h2 class="subtitle">{{ .Site.Params.Research.Subtitle_2 }}</h2>
+            <div class="process-wrapper">
+                {{ range $element := sort .Site.Data.previous "weight" }}
+                <div class="process-item">
+                    <figure class="item-header">
+                        <!-- <img src="svg/{{ $element.icon }}"> -->
+                        <h3>{{ $element.title }}</h3>
+                    </figure>
+                    <p>{{ $element.authors }}</p>
+                    <p>{{ $element.venue }} [<a href="{{ $element.link }}">paper</a>]</p>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>

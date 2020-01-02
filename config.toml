@@ -1,19 +1,19 @@
-baseURL = "localhost:1313"
+baseURL = "" 
 languageCode = "en-us"
 title = "Chris DuBois"
 theme = "hugo-lodi-theme"
 googleAnalytics = "UA-XXXXXXXX-Y"
 
 [params]
-    theme_color = "#574CDD"
+    theme_color = "#2b5c4e"
     description = "Personal homepage for Chris DuBois."
 #description_photo = "portfolio.jpg"
     favicon = "favicon.png"
     email = "chris.dubois@gmail.com"
     twitter = "chrisdubois"
-    linkedin = "https://www.linkedin.com/in/alexander-hans-collado-jr-9444146a"
+    linkedin = "https://www.linkedin.com/in/chrisdubois"
     github = "chrisdubois"
-    googlescholar = "https://scholar.google.com/citations?user=XXXXXXXXXXXXXXXXXXXXX=en"
+    googlescholar = "https://scholar.google.com/citations?user=sWEfxzEAAAAJ=en"
 
 [params.nav]
     enable = true
@@ -22,13 +22,30 @@ googleAnalytics = "UA-XXXXXXXX-Y"
     enable = true
     avatar = "portrait_2.png"
     subtitle = "I'm Chris DuBois, an engineering manager at Apple."
-    hero_right = ["I work on the [Siri WebAnswers](https://9to5mac.com/2019/08/27/spotlight-siri-web-answer/) team. We are an NLP-oriented R&D team. Our goal is to provide fast and direct answers to the questions people ask their devices.","**If you are interested in training and deploying ML models for a user-facing product, we are hiring!**","Prior to Apple, I was a Senior Data Scientist at a startup called Turi (formerly Dato and GraphLab) where I helped build the NLP functionalities as well as the recommender toolkit for Turi Create.","During graduate school, I focused on probabilistic models for relational events, e.g. communication or interaction within a social network. I obtained a Ph.D. from the Department of Statistics at University of California, Irvine, working with Padhraic Smyth and the DataLab. I also had the opportunity to do research internships at Google Research NY (with Daryl Pregibon) and Microsoft Research (with Chris Meek)."]
+    hero_right = ["I work on the [Siri WebAnswers](https://9to5mac.com/2019/08/27/spotlight-siri-web-answer/) team. We are an NLP-oriented R&D team. Our goal is to provide fast and direct answers to the questions people ask their devices.","**If you are interested in training and deploying ML models for a user-facing product, we are hiring!**","Prior to Apple, I was a Senior Data Scientist at Turi (a startup formerly known as Dato and GraphLab). I helped build the NLP and recommender system toolkits for Turi Create.","During graduate school, I focused on probabilistic models for relational events, e.g., communication or interaction within a social network. I obtained a Ph.D. from the Department of Statistics at University of California, Irvine, working with Padhraic Smyth and the DataLab. I also had the opportunity to do research internships at Google Research NY (with Daryl Pregibon) and Microsoft Research (with Chris Meek)."]
 
 #    resume = "ResumeCollado.pdf"
+
+[params.case_studies]
+    enable = false
+    title = "Case Studies"
+    subtitle = "Selected Works"
+
+[params.process]
+    enable = false
+    title = "My Process"
+    subtitle = "Full Process Design"
+
+[params.research]
+    enable = true
+    title = "Research"
+    subtitle_1 = "Recent"
+    subtitle_2 = "Previous"
 
 [params.recent]
     enable = true
     title = "Recent work"
+    subtitle = "Full Process Design"
 
 [params.previous]
     enable = true
