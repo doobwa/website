@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:doobwa/doobwa.github.io.git
+	branch = master
