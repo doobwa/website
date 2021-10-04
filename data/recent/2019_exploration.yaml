@@ -2,6 +2,6 @@ weight: 2
 title: "An Exploration of Data Augmentation and Sampling Techniques for Domain-Agnostic Question Answering"
 icon: "ui.svg"
 authors: "Shayne Longpre, Yi Lu, Zhucheng Tu, Chris DuBois"
-venue: "2nd Workshop on Machine Reading for Question Answering (co-located with ACL)"
+venue: "2nd Workshop on Machine Reading for Question Answering (co-located with EMNLP)"
 link: "https://arxiv.org/abs/1912.02145"
 description: ""
